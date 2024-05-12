@@ -5,7 +5,7 @@ if(isset($_GET['nom']) && isset($_GET['email'])) {
     $email = $_GET['email']; 
 
     // Redirection vers un autre site avec un message de bienvenue incluant le nom
-    header("Location: https://projet-cy-password-4xkxyv28b-matteo-dabs-projects.vercel.app/?nom=$nom");
+    header("Location: https://projet-cy-password-4xkxyv28b-matteo-dabs-projects.vercel.app/welcome.php?nom=$nom");
     exit(); 
 } else {
     // Redirection vers la page précédente si les données de formulaire ne sont pas envoyées
